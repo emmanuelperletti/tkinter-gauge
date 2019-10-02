@@ -1,6 +1,7 @@
 from tkinter import *
 
 
+
 class HGauge:
 
     def __init__(self, width, height, min_value, max_value, value):
