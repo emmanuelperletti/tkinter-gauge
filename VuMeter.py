@@ -1,4 +1,4 @@
-from tkinter import *
+from tkinter import StringVar, Entry, Button, Tk
 from gauge import VVuMeter
 
 mode = 'multi'
