@@ -18,7 +18,7 @@ ent.pack()
 btn = Button(root, text='click me', command=lambda: myg.update(int(val.get())))
 btn.pack()
 
-myvu = G.VVuMeter_Mono(0,100,0)
+myvu = G.VVuMeter(0,100,0)
 myvu.show(root).pack()
 
 
